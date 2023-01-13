@@ -81,7 +81,7 @@ function info() {
         <hr className='border-sky-900 border-[1px] rounded-xl w-[80vw] mt-10'/>
         <div className='relative flex items-center justify-center w-full py-10 text-6xl font-bold bg-white text-sky-900 z-1'>Mockup</div>
         <div className='overflow-hidden border-2 rounded-xl border-sky-600'>
-          <a href='https://www.figma.com/proto/Fh14LSDAXdrvdoqWVeUAyd/Sole-Mockup-V4?node-id=1%3A17&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A16' target="_blank">
+          <a href='https://www.figma.com/proto/Fh14LSDAXdrvdoqWVeUAyd/Sole-Mockup-V4?node-id=1%3A17&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A16' target="_blank" rel="noreferrer">
             <Image
               src='/mockup2.png'
               alt=''
