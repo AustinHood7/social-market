@@ -41,7 +41,7 @@ function resources() {
                 />
               </div>
             </div>
-            Paid subscription services like Patreon and Twitch allow a creator's fan base to pay a monthly fee to fuel a creator&apos;s content.
+            Paid subscription services like Patreon and Twitch allow a creator&apos;s fan base to pay a monthly fee to fuel a creator&apos;s content.
             Approximately 10 million people subscribe to over 750,000 creators who utilize these paid subscriptions as a form of investing in their content. 
             This is likely a factor to why many people are investing less into the traditional market as the trend presents on the bottom graph. 
           </div>
