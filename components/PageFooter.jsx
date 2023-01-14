@@ -8,7 +8,7 @@ function PageFooter() {
             2022 © SoleIndustries All Rights Reserved
             </a>
             <Image
-                src='/logo_White.png'
+                src='/Logo_White.png'
                 alt=''
                 width={250}
                 height={250}
