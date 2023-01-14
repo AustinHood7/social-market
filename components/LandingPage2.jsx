@@ -12,7 +12,7 @@ const LandingPage2 = (props) => {
                 <div className='flex justify-center items-center h-[92vh] z-100 relative'>
                     <div className='m-0 border-0 rounded-full backdrop-blur-[.5rem] maxSm:hidden'>
                         <Image
-                            src='/logo_White.png'
+                            src='/Logo_White.png'
                             alt=''
                             width={500}
                             height={500}
