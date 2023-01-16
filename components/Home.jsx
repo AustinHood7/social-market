@@ -3,6 +3,7 @@ import PeopleCard from './PeopleCard'
 import PageFooter from './PageFooter'
 import TextBox1 from './TextBox1'
 import BenefitCard from './BenefitCard'
+import { FaArrowRight } from 'react-icons/fa';
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
             <div className='relative z-20 flex justify-center pt-[5vh] bg-white text-sky-900'>
                 <div className='flex flex-col items-center justify-center text-center'>
                     <span className='text-4xl font-bold'>What is The Social Market? </span>
-                    <div className='flex items-center justify-center w-full max-w-full mt-10 border maxSm:flex-col md:justify-evenly bg-gradient-to-r from-sky-600 to-emerald-600'>
+                    <div className='flex items-center justify-center max-w-[100vw] mt-10 border maxSm:flex-col md:justify-evenly bg-gradient-to-r from-sky-600 to-emerald-600'>
                         <PeopleCard
                             name="Lebron James"
                             following="206M"
@@ -86,29 +87,49 @@ const Home = () => {
                         Allowing the general public access through a public market of TV shows, a new artist album, or a revolutionary new start-up through a public market would allow 
                         seemingly endless opportunities across the globe. 
                     </div>
+                    <div className='mb-[2rem]'>
+                        <iframe 
+                            width="853" 
+                            height="480" 
+                            src="https://www.youtube.com/embed/daPdjNf521w" 
+                            title="Sole Industries The Social Market" 
+                            frameborder="0" 
+                            allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen
+                        />
+                    </div>     
                     <hr className='border-sky-900 border-[1px] rounded-xl w-[80vw]'/>
                     <div className='my-10 text-4xl font-bold text-center'>How does it work? </div>
-                    <div className='md:h-[78vh] maxSm:flex-col flex text-center justify-center'>
-                        <div className=''>
+                    <div className='maxSm:flex-col flex text-center justify-center'>
+                        <div className='flex'>
                             <TextBox1 
                                 input='Sign up for the Social Market and browse all participating creators'
                                 boxText="Sign up"
                             />
+                            <div className='m-5 mt-[25%] text-6xl text-sky-900'>
+                                <FaArrowRight/>
+                            </div>
                         </div>
-                        <div className='translate-y-[15%]'>
+                        <div className='mt-[5%] flex'>
                             <TextBox1 
                                 input='See what is on the Social Market and check the Social Equity of your favorite 
                                 artists'
                                 boxText="Browse the Social Market"
                             />
+                            <div className='m-5 mt-[25%] text-6xl text-sky-900'>
+                                <FaArrowRight/>
+                            </div>
                         </div>
-                        <div className='translate-y-[30%]'>
+                        <div className='mt-[10%] flex'>
                             <TextBox1 
                                 input='Send a request to be evaluated and become a publically traded figure'
                                 boxText="Opt into trading on the market"
                             />
+                            <div className='m-5 mt-[25%] text-6xl text-sky-900'>
+                                <FaArrowRight/>
+                            </div>
                         </div>
-                        <div className='translate-y-[45%]'>
+                        <div className='mt-[15%]'>
                             <TextBox1 
                                 input='Sign up for the Social Market and browse all participating creators'
                                 boxText="Trade or invest on the Social Market"

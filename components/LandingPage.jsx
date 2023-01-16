@@ -9,7 +9,7 @@ const LandingPage = () => {
                 <div className='relative z-0'>            
                     <Particle/>
                 </div>
-                <div className='flex justify-center items-center h-[92vh] z-100 relative'>
+                <div className='flex justify-center items-center z-100 relative'>
                     <div className='m-0 border-0 rounded-full backdrop-blur-[.5rem] maxSm:hidden'>
                             <Image
                                 src='/Logo_White.png'
@@ -19,11 +19,11 @@ const LandingPage = () => {
                             />
                         </div>
                         <hr className='border-sky-500 border-[1px] rounded-lg w-[15rem] mr-10 maxSm:hidden'/>
-                        <div className="text-sky-100 border-0 backdrop-blur-[.5rem] rounded-xl p-5 maxSm:ml-[10vw]">
+                        <div className="text-sky-100 border-0 backdrop-blur-[.5rem] rounded-xl p-5 maxSm:ml-[10vw] min-w-[50vw] h-[92vh] flex flex-col justify-center">
                             <div className="text-2xl">Welcome to <h1 className="font-bold text-8xl">The</h1></div>
                             <h1 className="mt-3 font-bold text-8xl">Social Market</h1>
                             <div className='mt-5 text-2xl text-blue-200'>Creating better opportunities for creators and investors</div>
-                            <button className='flex items-center p-5 m-5 mt-10 ml-10 text-xl border-sky-500 rounded-2xl bg-gradient-to-r from-emerald-600 to-sky-600 bg-opacity-20'>
+                            <button className='flex items-center p-5 m-5 mt-10 ml-10 text-xl border-sky-500 rounded-2xl bg-gradient-to-r from-emerald-600 to-sky-600 bg-opacity-20 max-w-[10rem] justify-center'>
                                 Contact Us
                             </button>
                         </div>
