@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function PageFooter() {
   return (
-        <div className="h-[16vh] flex justify-between bg-sky-700 items-center z-10 relative text-sky-100 px-[5%]">
+        <div className="min-h-[16vh] flex justify-between bg-sky-700 items-center z-10 relative text-sky-100 px-[5%]">
             <a href='SoleIndustries.com'>
             2022 © SoleIndustries All Rights Reserved
             </a>
