@@ -28,7 +28,7 @@ const LandingPage = () => {
                             </button>
                         </div>
                 </div>
-                <div className='place-items-end'>
+                <div className='object-bottom'>
                     <Footer />
                 </div>
                 
