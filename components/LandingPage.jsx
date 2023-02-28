@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 const LandingPage = () => {
     return (
         <>
-            <div className="flex-col items-center h-screen bg-gradient-to-r from-sky-600 to-emerald-600">
+            <div className="flex-col items-center h-[100%] bg-gradient-to-r from-sky-600 to-emerald-600">
                 <div className='relative z-0 max-w-[100vw]'>            
                     <Particle/>
                 </div>
