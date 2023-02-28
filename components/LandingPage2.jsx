@@ -5,7 +5,7 @@ import Particle from '../components/Particle'
 const LandingPage2 = (props) => {
     return (
         <>
-            <div className="flex-col items-center h-screen bg-gradient-to-r from-sky-600 to-emerald-600">
+            <div className="h-screen bg-gradient-to-r from-sky-600 to-emerald-600 flex flex-col max-w-[100vw]">
                 <div className='relative z-0'>            
                     <Particle/>
                 </div>
@@ -18,9 +18,9 @@ const LandingPage2 = (props) => {
                             height={500}
                         />
                     </div>
-                    <hr className='border-sky-500 border-[1px] rounded-lg w-[15rem] mr-10 maxSm:hidden'/>
-                    <div className="text-sky-100 border-0 backdrop-blur-[.5rem] rounded-xl p-5 maxSm:ml-[10vw] max-w-[25vw]">
-                        <div className='text-6xl font-bold'>{props.info}</div>
+                    <hr className='border-sky-500 border-[1px] rounded-lg w-[15rem] md:mr-10 maxSm:hidden'/>
+                    <div className="maxSm:mr-0 text-sky-100 border-0 backdrop-blur-[.5rem] rounded-xl md:p-5 max-w-[25vw] flex justify-center">
+                        <div className='text-6xl font-bold ]'>{props.info}</div>
                     </div>
                 </div>
                 <Footer />

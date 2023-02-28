@@ -5,7 +5,7 @@ import { MdAlternateEmail } from 'react-icons/md';
 
 const Footer = () => {
     return (
-        <div className="h-[8vh] flex justify-center bg-sky-700 items-center z-10 relative">
+        <div className=" flex justify-center bg-sky-700 items-center z-10 relative p-2">
             <div className='mx-6'>
                 <TiSocialLinkedinCircular color='#e0f2fe' size={60}/>
             </div>

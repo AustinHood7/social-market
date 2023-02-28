@@ -13,7 +13,7 @@ const Home = () => {
             <div className='relative z-20 flex justify-center pt-[5vh] bg-white text-sky-900'>
                 <div className='flex flex-col items-center justify-center text-center'>
                     <span className='text-4xl font-bold'>What is The Social Market? </span>
-                    <div className='flex items-center justify-center max-w-[100vw] mt-10 border maxSm:flex-col md:justify-evenly bg-gradient-to-r from-sky-600 to-emerald-600'>
+                    <div className='flex items-center justify-center w-[100vw] mt-10 border maxSm:flex-col md:justify-evenly bg-gradient-to-r from-sky-600 to-emerald-600'>
                         <PeopleCard
                             name="Lebron James"
                             following="206M"
@@ -87,7 +87,7 @@ const Home = () => {
                         Allowing the general public access through a public market of TV shows, a new artist album, or a revolutionary new start-up through a public market would allow 
                         seemingly endless opportunities across the globe. 
                     </div>
-                    <div className='mb-[2rem]'>
+                    <div className='mb-[2rem] max-w-[100vw]'>
                         <iframe 
                             width="853" 
                             height="480" 
@@ -100,8 +100,8 @@ const Home = () => {
                     </div>     
                     <hr className='border-sky-900 border-[1px] rounded-xl w-[80vw]'/>
                     <div className='my-10 text-4xl font-bold text-center'>How does it work? </div>
-                    <div className='maxSm:flex-col flex text-center justify-center'>
-                        <div className='flex'>
+                    <div className='maxSm:flex-col flex text-center justify-center maxSm:items-center'>
+                        <div className='md:flex'>
                             <TextBox1 
                                 input='Sign up for the Social Market and browse all participating creators'
                                 boxText="Sign up"
@@ -110,7 +110,7 @@ const Home = () => {
                                 <FaArrowRight/>
                             </div>
                         </div>
-                        <div className='mt-[5%] flex'>
+                        <div className='mt-[5%] md:flex'>
                             <TextBox1 
                                 input='See what is on the Social Market and check the Social Equity of your favorite 
                                 artists'
@@ -120,7 +120,7 @@ const Home = () => {
                                 <FaArrowRight/>
                             </div>
                         </div>
-                        <div className='mt-[10%] flex'>
+                        <div className='mt-[10%] md:flex'>
                             <TextBox1 
                                 input='Send a request to be evaluated and become a publically traded figure'
                                 boxText="Opt into trading on the market"
@@ -136,7 +136,7 @@ const Home = () => {
                             />
                         </div>
                     </div>
-                        <hr className='border-sky-900 maxSm:mt-[50%] border-[1px] rounded-xl w-[80vw] mx-[10vw] mt-5'/>
+                        <hr className='border-sky-900 border-[1px] rounded-xl w-[80vw] mx-[10vw] mt-5'/>
                         <div className='relative flex items-center justify-center w-full py-10 text-6xl font-bold bg-white text-sky-900 z-1'>Benefits</div>
                         <div className='py-10 bg-white md:flex justify-evenly'>
                             <BenefitCard 
