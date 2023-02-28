@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return(
-        <div className="w-full h-[80px] bg-sky-600 absolute 
+        <div className="h-[80px] bg-sky-600 absolute flex justify-end w-[100vw]
         font-body text-sky-400 bg-opacity-0 z-50">
             <div className="flex items-center h-full text-xl md:justify-between">
                 <div className="flex items-center ml-[2.5rem]">

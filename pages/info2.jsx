@@ -6,13 +6,13 @@ import Image from 'next/image';
 
 function info() {
   return (
-    <div className='w-full bg-white '>
+    <div className='w-full bg-sky-900 '>
       <Navbar/>
       <LandingPage2
         info="How does the Social Market work?"  
       />
-      <div className='relative flex flex-wrap items-center bg-white justify-evenly z-100'>
-        <div className='relative flex items-center justify-center w-full py-10 text-6xl font-bold bg-white text-sky-900 z-1'>Real Life Scenario</div>
+      <div className='relative flex flex-wrap items-center bg-sky-900 justify-evenly z-100'>
+        <div className='relative flex items-center justify-center w-full py-10 text-6xl font-bold bg-sky-900 text-sky-100 z-1'>Real Life Scenario</div>
         <div className='items-center md:flex justify-evenly'>
         <div className='md:max-w-[25vw] border rounded-xl bg-gradient-to-r from-sky-600 to-emerald-600 flex flex-col p-5 px-10 items-center mx-8'>
           <h2 className='mb-4 text-4xl text-sky-100'>Phase 1</h2>
@@ -79,7 +79,7 @@ function info() {
         </div>
         </div>
         <hr className='border-sky-900 border-[1px] rounded-xl w-[80vw] mt-10'/>
-        <div className='relative flex items-center justify-center w-full py-10 text-6xl font-bold bg-white text-sky-900 z-1'>Mockup</div>
+        <div className='relative flex items-center justify-center w-full py-10 text-6xl font-bold bg-sky-900 text-sky-100 z-1'>Mockup</div>
         <div className='overflow-hidden border-2 rounded-xl border-sky-600 max-w-[100vw]'>
           <a href='https://www.figma.com/proto/Fh14LSDAXdrvdoqWVeUAyd/Sole-Mockup-V4?node-id=1%3A17&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A16' target="_blank" rel="noreferrer">
             <Image
@@ -90,7 +90,7 @@ function info() {
             />
           </a>
         </div>
-        <div className='flex text-center text-2xl bg-opacity-10 border-0 rounded-xl bg-sky-500 p-5 mb-10 max-w-[60vw] maxSm:ml-[15vw] mx-[15vw] mt-10 text-sky-900'>
+        <div className='flex text-center text-2xl border-0 rounded-xl bg-sky-600 p-5 mb-10 max-w-[60vw] maxSm:ml-[15vw] mx-[15vw] mt-10 text-sky-100'>
           This is an interactive mockup that outlines the general features and flow of using this type of social media application. It shows typical features such
           as top charts, different generes, and a page to discover new artists. The most important feature that this mockup describes is the ability to obtain a market 
           value and display it to the public. This makes your likeness a publically traded entity rather than being subject to the many different record/music labels
