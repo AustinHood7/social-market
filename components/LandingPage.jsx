@@ -9,7 +9,7 @@ const LandingPage = () => {
                 <div className='relative z-0 max-w-[100vw]'>            
                     <Particle/>
                 </div>
-                <div className='flex justify-center items-center z-100 relative'>
+                <div className='flex justify-center items-center z-100 relative h-[89vh]'>
                     <div className='m-0 border-0 rounded-full backdrop-blur-[.5rem] maxSm:hidden flex flex-col items-center'>
                             <Image
                                 src='/Logo_White.png'
