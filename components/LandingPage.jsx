@@ -28,10 +28,7 @@ const LandingPage = () => {
                             </button>
                         </div>
                 </div>
-                <div className='object-bottom'>
-                    <Footer />
-                </div>
-                
+                    <Footer />                
             </div>
         </>
         
