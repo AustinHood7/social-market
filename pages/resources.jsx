@@ -70,7 +70,7 @@ function resources() {
           </ul>
           <div className='md:flex justify-evenly'>
             <a href='https://www.federalreserve.gov/newsevents/speech/powell20220617a.htm'>
-              <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-sm hover:hue-rotate-0 hover:blur-0
+              <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-[1px] hover:hue-rotate-0 hover:blur-0
               transition ease-in-out delay-150'>
                 <Image
                     src={'/powell934-717.png'}
@@ -81,7 +81,7 @@ function resources() {
               </div>
             </a>
             <a href='https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=408969'>
-              <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-sm hover:hue-rotate-0 hover:blur-0
+              <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-[1px] hover:hue-rotate-0 hover:blur-0
               transition ease-in-out delay-150'>
                 <Image
                     src={'/watersLg.png'}
@@ -98,7 +98,7 @@ function resources() {
               <div className='flex-col mx-4 text-2xl font-bold text-center'>
                   CBDC
                   <a href='https://www.federalreserve.gov/central-bank-digital-currency.htm'>
-                          <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-sm hover:hue-rotate-0 hover:blur-0
+                          <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-[1px] hover:hue-rotate-0 hover:blur-0
                           transition ease-in-out delay-150'>
                               <Image
                                   src={'/cbdc412x412.png'}
@@ -113,7 +113,7 @@ function resources() {
               <div className='flex-col mx-4 text-2xl font-bold text-center'>
                   Blockchain
                   <a href='https://www.ibm.com/topics/what-is-blockchain'>
-                          <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-sm hover:hue-rotate-0 hover:blur-0
+                          <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-[1px] hover:hue-rotate-0 hover:blur-0
                           transition ease-in-out delay-150'>
                               <Image
                                   src={'/blockchain.png'}
@@ -128,7 +128,7 @@ function resources() {
               <div className='flex-col mx-4 text-2xl font-bold text-center'>
                   CBDC Regional Map
                   <a href='https://cbdctracker.org/'>
-                      <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-sm hover:hue-rotate-0 hover:blur-0
+                      <div className='border rounded-2xl border-slate-700 my-[2rem] mx-5 overflow-hidden filter hue-rotate-60 blur-[1px] hover:hue-rotate-0 hover:blur-0
                       transition ease-in-out delay-150'>
                           <Image
                               src={'/cbdcTracker1x1.png'}

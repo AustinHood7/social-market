@@ -3,7 +3,7 @@ import PeopleCard from './PeopleCard'
 import PageFooter from './PageFooter'
 import TextBox1 from './TextBox1'
 import BenefitCard from './BenefitCard'
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowDown, FaArrowRight } from 'react-icons/fa';
 
 const Home = () => {
     return (
@@ -13,7 +13,7 @@ const Home = () => {
             <div className='relative z-20 flex justify-center pt-[5vh] bg-white text-sky-900'>
                 <div className='flex flex-col items-center justify-center text-center'>
                     <span className='text-4xl font-bold'>What is The Social Market? </span>
-                    <div className='flex items-center justify-center w-[100vw] mt-10 border maxSm:flex-col md:justify-evenly bg-gradient-to-r from-sky-600 to-emerald-600'>
+                    <div className='flex items-center justify-center w-[100vw] mt-10 py-10 border maxSm:flex-col md:justify-evenly bg-gradient-to-r from-sky-600 to-emerald-600'>
                         <PeopleCard
                             name="Lebron James"
                             following="206M"
@@ -88,15 +88,28 @@ const Home = () => {
                         seemingly endless opportunities across the globe. 
                     </div>
                     <div className='mb-[2rem] max-w-[100vw]'>
-                        <iframe 
-                            width="853" 
-                            height="480" 
-                            src="https://www.youtube.com/embed/daPdjNf521w" 
-                            title="Sole Industries The Social Market" 
-                            frameborder="0" 
-                            allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen
-                        />
+                        <div className='hidden md:block'>
+                            <iframe 
+                                width="853" 
+                                height="480" 
+                                src="https://www.youtube.com/embed/daPdjNf521w" 
+                                title="Sole Industries The Social Market" 
+                                frameBorder="0" 
+                                allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowFullscreen
+                            />
+                        </div>
+                        <div className='md:hidden border-2 rounded-xl border-sky-900 overflow-hidden'>
+                            <iframe 
+                                    width="400" 
+                                    height="400" 
+                                    src="https://www.youtube.com/embed/daPdjNf521w" 
+                                    title="Sole Industries The Social Market" 
+                                    frameBorder="0" 
+                                    allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowFullscreen
+                                />
+                        </div>
                     </div>     
                     <hr className='border-sky-900 border-[1px] rounded-xl w-[80vw]'/>
                     <div className='my-10 text-4xl font-bold text-center'>How does it work? </div>
@@ -106,8 +119,11 @@ const Home = () => {
                                 input='Sign up for the Social Market and browse all participating creators'
                                 boxText="Sign up"
                             />
-                            <div className='m-5 mt-[25%] text-6xl text-sky-900'>
+                            <div className='m-5 mt-[25%] text-6xl text-sky-900 hidden md:block'>
                                 <FaArrowRight/>
+                            </div>
+                            <div className='m-5 text-6xl text-sky-900 md:hidden flex justify-center'>
+                                <FaArrowDown/>
                             </div>
                         </div>
                         <div className='mt-[5%] md:flex'>
@@ -116,8 +132,11 @@ const Home = () => {
                                 artists'
                                 boxText="Browse the Social Market"
                             />
-                            <div className='m-5 mt-[25%] text-6xl text-sky-900'>
+                             <div className='m-5 mt-[25%] text-6xl text-sky-900 hidden md:block'>
                                 <FaArrowRight/>
+                            </div>
+                            <div className='m-5 text-6xl text-sky-900 md:hidden flex justify-center'>
+                                <FaArrowDown/>
                             </div>
                         </div>
                         <div className='mt-[10%] md:flex'>
@@ -125,8 +144,11 @@ const Home = () => {
                                 input='Send a request to be evaluated and become a publically traded figure'
                                 boxText="Opt into trading on the market"
                             />
-                            <div className='m-5 mt-[25%] text-6xl text-sky-900'>
+                            <div className='m-5 mt-[25%] text-6xl text-sky-900 hidden md:block'>
                                 <FaArrowRight/>
+                            </div>
+                            <div className='m-5 text-6xl text-sky-900 md:hidden flex justify-center'>
+                                <FaArrowDown/>
                             </div>
                         </div>
                         <div className='mt-[15%]'>
@@ -138,7 +160,7 @@ const Home = () => {
                     </div>
                         <hr className='border-sky-900 border-[1px] rounded-xl w-[80vw] mx-[10vw] mt-5'/>
                         <div className='relative flex items-center justify-center w-full py-10 text-6xl font-bold bg-white text-sky-900 z-1'>Benefits</div>
-                        <div className='py-10 bg-white md:flex justify-evenly'>
+                        <div className='py-10 bg-white flex justify-evenly gap-10 flex-col md:flex-row'>
                             <BenefitCard 
                             title='Users'
                             info="Users benefit from using this product because they are better able to monitize and own their own online persona.

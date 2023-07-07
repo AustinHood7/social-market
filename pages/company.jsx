@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import BenefitCard from '../components/BenefitCard'
 import PageFooter from '../components/PageFooter'
 import TeamCard from '../components/TeamCard'
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight, FaArrowDown, FaCheckCircle, FaMinusCircle } from 'react-icons/fa';
 
 function company() {
   return (
@@ -14,9 +14,9 @@ function company() {
         info='Company'
       />
       <div className='text-sky-900 text-6xl font-bold relative z-1 flex justify-center pt-[10vh] pb-3 min-h-[2em] bg-sky-100'>Business Stages </div>
-      <div className='md:flex bg-sky-100 justify-center p-[5rem] relative z-1'>
+      <div className='md:flex bg-sky-100 justify-center p-[5rem] relative z-1 items-center'>
         <div className='relative flex flex-col z-1 border-2 border-sky-900 rounded-xl min-w-[20vw] backdrop-blur-[.5rem] items-center p-5 bg-gradient-to-r from-sky-600 to-emerald-600'>
-          <div className='border-2 border-sky-900 rounded-full bg-emerald-500 w-[10vw] min-h-[10vw]'></div>
+          <FaCheckCircle size={200} color='#16a34a' className='border-0 rounded-full bg-white'/>
           <div className='text-6xl text-sky-100'>
             Pre-IPO
           </div>
@@ -24,11 +24,14 @@ function company() {
           Pre-IPO, pre-initial public offering is a late-stage for a private company to raise funds in advance of its listing on a public exchange.
           </div>
         </div>
-        <div className='m-5 text-6xl text-sky-700 flex items-center'>
-          <FaArrowRight/>
+        <div className='m-5 text-6xl text-sky-900 hidden md:block'>
+            <FaArrowRight/>
+        </div>
+        <div className='m-5 text-6xl text-sky-900 md:hidden flex justify-center'>
+            <FaArrowDown/>
         </div>
         <div className='relative flex flex-col z-1 backdrop-blur-[.5rem] border-2 border-sky-900 rounded-xl min-w-[20vw] items-center p-5 bg-gradient-to-r from-sky-600 to-emerald-600'>
-          <div className='border-2 border-sky-900 rounded-full bg-red-600 w-[10vw] min-h-[10vw]'></div>
+          <FaMinusCircle size={200} color='#dc2626' className='border-0 rounded-full bg-white'/>
           <div className='text-6xl text-center text-sky-100'>
             IPO Launch
           </div>
@@ -37,11 +40,14 @@ function company() {
           (individual) investors.
           </div>
         </div>
-        <div className='m-5 text-6xl text-sky-700 flex items-center'>
-          <FaArrowRight/>
+        <div className='m-5 text-6xl text-sky-900 hidden md:block'>
+            <FaArrowRight/>
+        </div>
+        <div className='m-5 text-6xl text-sky-900 md:hidden flex justify-center'>
+            <FaArrowDown/>
         </div>
         <div className='relative flex flex-col z-1 backdrop-blur-[.5rem] border-2 border-sky-900 rounded-xl min-w-[15vw] items-center p-5 bg-gradient-to-r from-sky-600 to-emerald-600'>
-          <div className='border-2 border-sky-900 rounded-full bg-red-600 w-[10vw] min-h-[10vw]'></div>
+        <FaMinusCircle size={200} color='#dc2626' className='border-0 rounded-full bg-white'/>
           <div className='text-6xl text-sky-100'>
             Returns
           </div>
@@ -51,7 +57,7 @@ function company() {
           </div>
         </div>
       </div>
-      <div className='text-sky-900 text-6xl font-bold relative z-1 flex justify-center pt-[10vh] bg-sky-100'>Products and Services</div>
+      <div className='text-sky-900 text-6xl font-bold relative z-1 flex justify-center pt-[10vh] bg-sky-100 pl-10 md:pl-0'>Products and Services</div>
       <div className='bg-sky-100 relative z-1 pt-10'>
         <div className='flex text-center text-2xl bg-opacity-10 backdrop-blur-[.5rem] pt-10 text-sky-900 bg-sky-100 relative z-1 border-2 border-sky-900 rounded-xl bg-sky-500 p-5 pb-10 max-w-[80vw] maxSm:ml-[15vw] mx-[15vw]'>
             The Social Market is a multi-stage market similar model to the traditonal Stock Market. 
@@ -61,7 +67,7 @@ function company() {
               The Social Market will have similar levels in our market.
         </div>
       </div>
-      <div className='flex pt-10 relative z-1 justify-evenly bg-sky-100 pb-5'>
+      <div className='md:flex-row pt-10 relative z-1 justify-evenly bg-sky-100 pb-5 flex flex-col gap-6'>
         <BenefitCard 
           title='The Social Market'
           info="Large investments for large creators, projects, untimately low-risk investments given their work and social-equity
@@ -86,30 +92,22 @@ function company() {
       pb-3 min-h-[2em] bg-sky-100'>Team </div>
 
       <div className='md:flex flex-wrap relative z-1 bg-sky-100 justify-evenly'>
-        <TeamCard 
-          position='Software Developer'
-          name='Austin Hood'
-          description='Works on software development, mockups, requirements elicitation, and helping to structure the overall software product.'
-          src=''        
-        />
-        <TeamCard 
-          position='CEO'
-          name='Parker Joyce'
-          description='Works on software development, mockups, requirements elicitation, and helping to structure the overall software product.'
-          src=''        
-        />
-        <TeamCard 
-          position='CFO'
-          name='Austin Hood'
-          description='Works on software development, mockups, requirements elicitation, and helping to structure the overall software product.'
-          src=''        
-        />
-        <TeamCard 
-          position='Analyst'
-          name='Austin Hood'
-          description='Works on software development, mockups, requirements elicitation, and helping to structure the overall software product.'
-          src=''        
-        />
+        <div className='py-10'>
+          <TeamCard 
+            position='Software Developer'
+            name='Austin Hood'
+            description='Works on software development, mockups, requirements elicitation, and software architecture'
+            src='/me.png'        
+          />
+        </div>
+        <div className='pb-10'>
+          <TeamCard 
+            position='CEO'
+            name='Parker Joyce'
+            description='Works on software development, mockups, requirements elicitation, and helping to structure the overall software product.'
+            src=''        
+          />
+        </div>
       </div>
       <PageFooter />
     </div>

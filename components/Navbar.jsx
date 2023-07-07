@@ -14,7 +14,7 @@ const Navbar = () => {
                 </div>
                 <div className="">
                     <div className="nav">
-                        <ul className="md:float-right flex border-0 bg-sky-600 rounded-l-full backdrop-blur-[1rem] bg-opacity-0 items-center justify-center">
+                        <ul className="md:float-right flex border-0 bg-sky-600 rounded-l-full backdrop-blur-[1rem] bg-opacity-0 items-center justify-center px-2 md:px-0">
                             <li className="mx-3 my-2 transition-all duration-200 border-0 rounded-full hover:text-shadow-blue maxSm:text-sm maxSm:mx-1">
                             <span className="text-sky-100"> <Link href="/">Home</Link></span></li>
                             <li className="mx-3 my-2 transition-all duration-200 border-0 rounded-full hover:text-shadow-blue maxSm:text-sm maxSm:mx-1">
@@ -22,7 +22,7 @@ const Navbar = () => {
                             <li className="mx-3 my-2 transition-all duration-200 border-0 rounded-full hover:text-shadow-blue maxSm:text-sm maxSm:mx-1">
                             <span className="text-sky-100"> <Link href="/resources">Resources</Link></span></li>
                             <li className="mx-3 my-2 transition-all duration-200 border-0 rounded-full hover:text-shadow-blue maxSm:text-sm maxSm:mx-1">
-                            <span className="text-sky-100"> <Link href="/company">Company</Link></span></li>
+                            <span className="text-sky-100 "> <Link href="/company">Company</Link></span></li>
                             <div className="resumeButton">
                                 <li className="float-right px-4 mx-4 mr-8 text-xl transition-all border-0 maxSm:text-sm maxSm:mx-1 bg-opacity-20 rounded-xl md:flex hover:text-shadow-blue bg-sky-300 text-sky-100"><Link href="/contact">Contact</Link></li>
                             </div>
