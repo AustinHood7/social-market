@@ -17,7 +17,7 @@ function contact() {
       />
       <div className='relative z-20 flex justify-center pt-[5vh] bg-white text-sky-900'>
         <div className='flex flex-col gap-6'>
-          <h1 className='text-2xl'>Creator:</h1>
+          <h1 className='text-2xl'>Founder:</h1>
             <div className='flex items-center gap-6'>
               <BsPersonCircle color='sky-900' size={45}/>
               <a className='text-xl'>Parker Joyce</a>
@@ -31,7 +31,7 @@ function contact() {
           <h1 className='text-2xl'>Email</h1>
           <div className='flex text-xl items-center gap-6 pb-10'>
             <a className='' href="mailto:parkerjoyce@soleindustries.com"><MdEmail color='sky-900' size={45}/></a>
-            <span className=''>ParkerJoyce@SoleIndustries.com</span>
+            <span className=''>parkerjoyce@soleindustries.com</span>
           </div>
         </div>
       </div>
