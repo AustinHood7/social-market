@@ -30,8 +30,8 @@ function contact() {
           
           <h1 className='text-2xl'>Email</h1>
           <div className='flex text-xl items-center gap-6 pb-10'>
-            <a className='' href="mailto:parkerjoyce@soleindustries.com"><MdEmail color='sky-900' size={45}/></a>
-            <span className=''>parkerjoyce@soleindustries.com</span>
+            <a className='flex gap-6 items-center' href="mailto:parkerjoyce@soleindustries.com"><MdEmail color='sky-900' size={45}/> <span className=''>parkerjoyce@soleindustries.com</span></a>
+           
           </div>
         </div>
       </div>

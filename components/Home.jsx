@@ -96,7 +96,7 @@ const Home = () => {
                                 title="Sole Industries The Social Market" 
                                 frameBorder="0" 
                                 allow="accelerometer autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                allowFullscreen
+                                allowFullScreen
                             />
                         </div>
                         <div className='md:hidden border-2 rounded-xl border-sky-900 overflow-hidden'>
